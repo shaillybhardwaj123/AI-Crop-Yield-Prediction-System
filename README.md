@@ -20,6 +20,7 @@
     <a href="https://streamlit.io/"><img src="https://img.shields.io/badge/Streamlit-%23FF4B4B.svg?style=for-the-badge&logo=Streamlit&logoColor=white&labelColor=c0392b&color=e74c3c" alt="Streamlit"/></a>
     <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge&labelColor=2c3e50&color=27ae60" alt="License"/></a>
     <br>
+    <a href="https://ai-crop-yield-prediction-system-04.streamlit.app/"><img src="https://img.shields.io/badge/🚀%20Live%20Demo-Streamlit%20Cloud-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Live Demo"/></a>
     <img src="https://img.shields.io/badge/🌾-Forecast%20Engine%20v2.0-8B5A2B?style=for-the-badge&logo=seed&logoColor=white" alt="Version"/>
     <img src="https://komarev.com/ghpvc/?username=yourusername&label=VIEWS&style=for-the-badge&color=2ec4b6" alt="Views"/>
   </p>
