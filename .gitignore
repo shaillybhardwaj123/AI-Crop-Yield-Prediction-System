@@ -111,9 +111,12 @@ venv.bak/
 # PyCharm settings
 .idea/
 
-# Local model weight artifacts or pipelines - but keep specific ones we want to commit
-# models/
-# In this project, we want to include our serialized models, so we do not ignore models/*.pkl
+# Large trained model files - excluded from git (app auto-trains on cloud from data/)
+models/random_forest.pkl
+models/decision_tree.pkl
+models/linear_regression.pkl
+# Keep only the small metadata file (areas, items, metrics ~2KB)
+# models/preprocessor.pkl  <-- this is committed
 
 # OS files
 .DS_Store
