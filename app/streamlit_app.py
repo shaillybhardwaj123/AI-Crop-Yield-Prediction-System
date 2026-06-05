@@ -211,7 +211,6 @@ def load_model_assets():
 
     # --- Auto-train if pkl missing and data is available ---
     if model is None and os.path.exists(DATA_PATH):
-        st.info("🔄 Model not found — training on-the-fly from dataset. Please wait…")
         model, metadata = train_and_save_model()
 
     return model, metadata
