@@ -25,6 +25,12 @@
     <img src="https://komarev.com/ghpvc/?username=yourusername&label=VIEWS&style=for-the-badge&color=2ec4b6" alt="Views"/>
   </p>
 
+  <br>
+  <a href="https://ai-crop-yield-prediction-system-04.streamlit.app/" target="_blank">
+    <img src="./images/live_demo_btn.svg" alt="Live Demo" width="220"/>
+  </a>
+  <br>
+
   <!-- Animated Underline -->
   <div style="width: 120px; height: 3px; background: linear-gradient(90deg, #2ec4b6, #028090, #2ec4b6); background-size: 200% auto; border-radius: 4px;"></div>
   

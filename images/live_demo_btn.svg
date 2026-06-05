@@ -1,0 +1,51 @@
+<svg width="220" height="56" viewBox="0 0 220 56" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="btnGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1e3a5f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f2540;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Button background -->
+  <rect x="2" y="2" width="216" height="52" rx="26" ry="26" fill="url(#btnGrad)" stroke="#2ec4b6" stroke-width="1.5"/>
+
+  <!-- Outer pulse ring (blinking) -->
+  <circle cx="36" cy="28" r="10" fill="none" stroke="#ff4b4b" stroke-width="1.5" opacity="0">
+    <animate attributeName="r" values="8;16;8" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="1.8s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Middle pulse ring -->
+  <circle cx="36" cy="28" r="7" fill="none" stroke="#ff4b4b" stroke-width="1" opacity="0">
+    <animate attributeName="r" values="6;11;6" dur="1.8s" begin="0.3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="1.8s" begin="0.3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Core red dot -->
+  <circle cx="36" cy="28" r="6" fill="#ff4b4b" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.4;1" dur="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="6;7;6" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- LIVE text -->
+  <text x="52" y="23" font-family="'Segoe UI', Arial, sans-serif" font-size="9" font-weight="700" fill="#ff4b4b" letter-spacing="2">
+    LIVE
+    <animate attributeName="opacity" values="1;0.5;1" dur="1.2s" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Divider line -->
+  <line x1="52" y1="27" x2="200" y2="27" stroke="#2ec4b6" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- DEMO text -->
+  <text x="52" y="42" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" fill="#ffffff" letter-spacing="1">LIVE DEMO</text>
+
+  <!-- Arrow icon -->
+  <text x="183" y="42" font-family="Arial" font-size="14" fill="#2ec4b6">→</text>
+</svg>
