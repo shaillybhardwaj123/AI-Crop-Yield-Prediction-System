@@ -1,4 +1,4 @@
-![Crop Yield Prediction Banner](./images/banner.png)
+
 
 <h1 align="center" style="border-bottom: none; font-size: 2.5rem; background: linear-gradient(135deg, #2ec4b6, #028090); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">
   🌾 AI-Powered Crop Yield Prediction System
